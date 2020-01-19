@@ -78,7 +78,7 @@ h2:after {
 .long-copy {
     line-height: 150%;
     width: 70%;
-    margin: 0 auto 10px auto;
+    margin: 0 auto;
 }
 
 .box p {
@@ -178,4 +178,69 @@ header {
 
 .main-nav li a:hover, .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* ----------------------------------- */
+/* FEATURE SECTION */
+/* ----------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------- */
+/* MEAL SECTION */
+/* ----------------------------------- */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.meal-photo figcaption {
+    position: absolute;
+    color: white;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    width: 80%;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.meal-photo:hover img {
+    transform: scale(1.05);
+    filter: brightness(50%);
+}
+
+.meal-photo:hover figcaption {
+    opacity: 1;
 }
