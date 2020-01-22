@@ -173,6 +173,7 @@ a:hover, a:hover {
 
 header {
     background-image: linear-gradient(#000000be, #000000be), url(img/hero.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -350,3 +351,48 @@ header {
 .city-feature {
     margin-bottom: 5px;
 }
+
+/* ----------------------------------- */
+/* TESTIMONIALS SECTION */
+/* ----------------------------------- */
+
+.section-testimonials {
+    background: linear-gradient(#000000be, #000000be), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    line-height: 150%;
+    padding: 2%;
+    font-style: italic;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+cite img {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
