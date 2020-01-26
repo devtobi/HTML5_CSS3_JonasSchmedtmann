@@ -396,3 +396,60 @@ cite img {
     vertical-align: middle;
 }
 
+/* ----------------------------------- */
+/* SIGNUP SECTION */
+/* ----------------------------------- */
+
+.section-plans {
+    background-color: #f3f3f3;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 4px 4px #ddd;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-price {
+    font-size: 300%;
+    color: #e67e22;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.plan-price span {
+    font-size: 33%;
+    font-weight: 300;
+    color: #555;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+    color: #bbb;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box div:first-child {
+    background-color: #fbfbfb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border-bottom: none;
+}
